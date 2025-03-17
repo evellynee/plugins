@@ -29,10 +29,13 @@ $(document).ready(function () {
             telefone: {
                 required:true
             },
-            veiculo: {
+            cpf: {
                 required:true
             },
-            mensagem:{
+            endereco:{
+                required:true
+            },
+            cep: {
                 required:true
             }
         },
@@ -46,5 +49,4 @@ $(document).ready(function () {
             }
         }
     })
-
 });
